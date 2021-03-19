@@ -1,0 +1,30 @@
+--- leads ---
+create staging branch
+clone repo
+cd into repo
+add company repo remote
+push master/main branch to company remote
+push staging branch to company remote
+
+--- devs ---
+
+clone company repo
+create feature branch
+push feature branch to repo
+develop feature
+push code to repo
+notifiy lead when done
+
+--- leads ---
+
+review code/run tests
+merge feature branch with stagin branch on company remote
+push staging branch to origin remote
+verify successful push in odoo.sh
+
+--- qa ---
+qa
+
+--- deployment ---
+merge and rebase staging with main/master
+pd-qa
