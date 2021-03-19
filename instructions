@@ -13,7 +13,7 @@ create feature branch
 push feature branch to repo
 develop feature
 push code to repo
-notifiy lead when done
+notifiy lead when done(git request-pull)
 
 --- leads ---
 
